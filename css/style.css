@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+  font-size: 16px; }
+
+body {
+  font-size: 62.5%;
+  font-family: tahoma,arial,helvetica,sans-serif;
+  position: relative;
+  padding: 0 40px;
+  height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  left: 40px;
+  text-align: right;
+
+}
+
+.word {
+  text-align: center;
+  vertical-align: top;
+  line-height: 36px;
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  font-family: 'Marck Script', cursive;
+  right: 0;
+}
+
+.letter {
+  vertical-align: top;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 44px;
+  border: 2px solid;
+  border-radius: 10px;
+  margin: 2px;
+}
