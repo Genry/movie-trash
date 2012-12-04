@@ -1,6 +1,5 @@
 /*
-    Здесь хранится название фильма расфасованное по буквам
-
+    the movie class
  */
 function Structure(movie){
     this.count = movie.length;
