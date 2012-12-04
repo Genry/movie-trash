@@ -30,6 +30,17 @@ footer {
   right: 0;
 }
 
+.mistakes {
+    text-align: center;
+    vertical-align: top;
+    line-height: 36px;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    font-family: 'Marck Script', cursive;
+    right: 0;
+}
+
 .letter {
   vertical-align: top;
   display: inline-block;
@@ -39,4 +50,26 @@ footer {
   border: 2px solid;
   border-radius: 10px;
   margin: 2px;
+}
+
+.mistake {
+    vertical-align: top;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 44px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.mistake-filled {
+    background-color: red;
+}
+
+.restart-button {
+    height: 50px;
+    width: 80px;
+    background-color: blue;
+    display: none;
 }
